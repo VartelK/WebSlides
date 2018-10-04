@@ -590,7 +590,9 @@ https://github.com/daneden/animate.css */
   -webkit-animation: slideInLeft 0s;
           animation: slideInLeft 0s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both; }
+          animation-fill-mode: both;
+transition-timing-function: ease-in;
+}
 
 /*-- slideInRight -- */
 @-webkit-keyframes slideInRight {
@@ -614,7 +616,9 @@ https://github.com/daneden/animate.css */
   -webkit-animation: slideInRight 0s;
           animation: slideInRight 0s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both; }
+          animation-fill-mode: both; 
+transition-timing-function: ease-in;
+}
 
 /* Animated Background (Matrix) */
 @-webkit-keyframes anim {
